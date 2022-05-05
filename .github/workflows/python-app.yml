@@ -47,4 +47,4 @@ jobs:
         if: github.ref == 'refs/heads/master' && job.status == 'success'
       run: |
         git remote set-url origin https://kuttinnasi@boscogitlab.in/kuttinnasi/python-github-actions-example.git
-        git push origin maste
+        git push origin master
